@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bg::before{
+    content: '';
+    background-image: url(/loginpage/N3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+.front{
+    position: absolute;
+    padding: 21% 5%;
+    left: 70%;
+    display: flex;
+    border: 3px solid greenyellow;
+    border-radius: 3%;
+    align-items: center;
+    justify-content: center;
+}
+input[type='text'], input[type='password']{
+    padding: 5% 6%;
+    display: inline-block;
+    margin: 3px 3px;
+    width: 100%;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+b{
+    color: rgb(255, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    width: 50%;
+    background-color: rgb(29, 200, 200);
+    color: aliceblue;
+    border: 2px solid rgb(38, 158, 167);
+    padding: 2% 6%;
+    left: 20%;
+}
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
